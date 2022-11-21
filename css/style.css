@@ -1,0 +1,42 @@
+
+* {
+    padding: 0 ;
+    margin: 0;
+}
+body {
+    font-family:  sans-serif;
+}
+
+#options {
+    position: fixed;
+    left: 0px ;
+    top: 150px ;
+    display: flex ;
+    align-items: flex-start;
+    z-index: 3 ;
+    /* background-color: tomato;  */
+}
+/* +++++++++ color Boxes +++++++++ */
+#options .colorsBox {
+    padding: 10px ;
+    background-color: #ccc ;
+}
+#options .colorsBox .colorBox-head {
+    text-transform: capitalize;
+    margin-bottom: 5px ;
+}
+#options .colorsBox .color-item {
+    display: inline-block;
+    width: 30px ;
+    height: 30px ;
+    cursor: pointer;
+    background-color: orange; 
+}
+/* +++++++++ cog icon +++++++++ */
+#options .cogIcon {
+    background-color: teal;
+    color: #fff;
+    padding: 10px ;
+    font-size: 22px ;
+    cursor: pointer;
+}
